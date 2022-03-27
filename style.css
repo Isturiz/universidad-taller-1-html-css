@@ -1,0 +1,50 @@
+/* Importación de la fuente utilizada */
+@import url(link href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap" rel="stylesheet");
+
+/* Colores de la página. */
+:root{
+  --color-black: #1B1A17;
+  --color-white: #fff;
+  --color-red: #F0A500;
+}
+
+/* Estilos del body. */
+body
+{
+  color: var(--color-white);
+  background-color: var(--color-black);
+  font-family: 'Inconsolata', monospace;
+  text-align: center;
+}
+
+/* Título de la página. */
+#title
+{
+  font-size: 3rem;
+  text-align: center;
+}
+/* Pequeña descripción bajo el título. */
+#description
+{
+  color: var(--color-white);
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+/* Estilos de la tabla. */
+table {
+  border: var(--color-red) 1px solid;
+  margin-top: 20px 40px 20px 40px;
+  text-align: center;
+}
+td, th {
+  border: var(--color-red) 2px solid;
+}
+
+/* Estilos de pie de página. */
+footer
+{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
